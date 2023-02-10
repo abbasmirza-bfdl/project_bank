@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bankapp',
+    'rest_framework',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +57,7 @@ ROOT_URLCONF = 'bankybank.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -88,6 +90,7 @@ DATABASES = {
         'PASSWORD': 'Finserv@2023',
         'HOST': '127.0.0.1', 
         'PORT': '5432',
+        
     }
 }
 
@@ -131,3 +134,35 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+LOGIN_REDIRECT_URL = "/adminhome/"
+LOGOUT_REDIRECT_URL = "/bankadmin/login/"
+REST_FRAMEWORK = {'EXCEPTION_HANDLER':'my_project.my_app.utils.custom_exception_handler'}
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False, 
+    'formatters': {
+        'verbose': {
+            'format': '{name} {levelname} {asctime} {message}',
+            'style': '{',
+        },
+        'simple': {
+            'format': '{levelname} {message}',
+            'style': '{',
+        },
+    },
+
+    'handlers': {
+        'file': {
+            'class': 'logging.FileHandler',
+            'filename': 'general.log',
+            'formatter': 'verbose',
+        },
+    },
+
+    'loggers': {
+        '': {
+            'level': 'DEBUG',
+            'handlers': ['file'],
+        },
+    },
+}

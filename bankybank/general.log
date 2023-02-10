@@ -1,0 +1,151 @@
+django.utils.autoreload INFO 2023-02-09 07:29:38,307 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:29:53,126 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankybank/settings.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:29:53,567 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:29:54,866 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankybank/settings.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:29:55,248 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:29:58,610 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankybank/settings.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:29:59,001 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:30:03,400 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankybank/settings.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:30:03,816 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:30:17,565 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:30:18,014 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:30:37,003 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:30:37,544 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:31:23,583 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:31:24,044 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:32:05,926 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:32:06,319 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:32:07,506 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:32:07,842 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:33:25,284 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:33:27,244 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:34:36,785 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:34:37,292 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:34:40,676 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:34:41,095 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:34:47,549 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:34:47,967 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:35:04,825 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:35:05,244 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:35:14,809 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:35:15,273 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:35:18,776 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:35:19,175 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:35:21,487 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:35:21,880 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:35:24,205 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:35:24,606 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:35:25,885 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:35:26,271 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:35:54,498 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:35:54,953 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:36:07,670 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:36:08,085 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:36:12,467 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:36:12,878 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:36:14,180 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:36:14,559 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:36:24,193 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:36:24,597 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:36:28,951 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:36:29,349 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:36:41,045 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:36:41,458 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:36:46,892 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:36:47,299 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:36:54,782 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:36:55,179 Watching for file changes with StatReloader
+django.request WARNING 2023-02-09 07:37:20,374 Not Found: /trsndetails/125212
+bankapp.views INFO 2023-02-09 07:38:43,893 new user create
+bankapp.views INFO 2023-02-09 07:38:43,919 new account created for user
+django.utils.autoreload INFO 2023-02-09 07:40:47,597 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:40:48,082 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:40:49,406 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:40:49,804 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:40:55,233 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:40:55,628 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:41:12,429 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:41:12,829 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:41:23,422 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:41:23,830 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:41:31,325 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:41:31,738 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:41:49,633 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:41:50,041 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 07:42:11,989 /Users/mirzabaig/Documents/GitHub/project_bank/bankybank/bankapp/views.py changed, reloading.
+django.utils.autoreload INFO 2023-02-09 07:42:12,374 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 09:05:04,580 Watching for file changes with StatReloader
+django.request ERROR 2023-02-09 09:05:12,593 Internal Server Error: /create_user/
+Traceback (most recent call last):
+  File "/Users/mirzabaig/Documents/GitHub/project_bank/myenv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mirzabaig/Documents/GitHub/project_bank/myenv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/mirzabaig/Documents/GitHub/project_bank/myenv/lib/python3.9/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view bankapp.views.create_user didn't return an HttpResponse object. It returned None instead.
+bankapp.views INFO 2023-02-09 09:06:00,179 user details displayed
+django.request ERROR 2023-02-09 09:06:20,797 Internal Server Error: /userdetails/
+Traceback (most recent call last):
+  File "/Users/mirzabaig/Documents/GitHub/project_bank/myenv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mirzabaig/Documents/GitHub/project_bank/myenv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/mirzabaig/Documents/GitHub/project_bank/myenv/lib/python3.9/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view bankapp.views.display_user_details didn't return an HttpResponse object. It returned None instead.
+bankapp.views INFO 2023-02-09 09:21:16,765 new user created
+bankapp.views INFO 2023-02-09 09:21:46,465 user details displayed
+bankapp.views INFO 2023-02-09 09:22:22,475 deposit successful
+bankapp.views INFO 2023-02-09 09:23:26,418 deposit successful
+bankapp.views INFO 2023-02-09 09:24:08,938 new user create
+bankapp.views INFO 2023-02-09 09:24:08,940 new account created for user
+bankapp.views INFO 2023-02-09 09:24:26,270 deposit successful
+bankapp.views INFO 2023-02-09 09:24:43,549 deposit successful
+django.utils.autoreload INFO 2023-02-09 09:43:37,713 Watching for file changes with StatReloader
+bankapp.views INFO 2023-02-09 09:44:49,525 new user created
+bankapp.views INFO 2023-02-09 09:45:37,409 user details displayed
+django.utils.autoreload INFO 2023-02-09 10:01:06,536 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 10:12:41,778 Watching for file changes with StatReloader
+bankapp.views INFO 2023-02-09 10:14:10,267 new user created
+bankapp.views INFO 2023-02-09 10:19:14,807 user details displayed
+bankapp.views INFO 2023-02-09 10:19:55,506 deposit successful
+django.request ERROR 2023-02-09 10:25:00,749 Internal Server Error: /deposit/succ/172198
+Traceback (most recent call last):
+  File "/Users/mirzabaig/Documents/GitHub/project_bank/myenv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mirzabaig/Documents/GitHub/project_bank/myenv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/mirzabaig/Documents/GitHub/project_bank/myenv/lib/python3.9/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view bankapp.views.trsn_deposit didn't return an HttpResponse object. It returned None instead.
+django.request ERROR 2023-02-09 10:25:01,130 Internal Server Error: /deposit/succ/146208
+Traceback (most recent call last):
+  File "/Users/mirzabaig/Documents/GitHub/project_bank/myenv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mirzabaig/Documents/GitHub/project_bank/myenv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/mirzabaig/Documents/GitHub/project_bank/myenv/lib/python3.9/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view bankapp.views.trsn_deposit didn't return an HttpResponse object. It returned None instead.
+django.request WARNING 2023-02-09 10:25:01,367 Not Found: /deposit/succ
+django.request WARNING 2023-02-09 10:25:02,066 Not Found: /deposit/
+django.request ERROR 2023-02-09 11:30:05,195 Internal Server Error: /deposit/succ/169850
+Traceback (most recent call last):
+  File "/Users/mirzabaig/Documents/GitHub/project_bank/myenv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mirzabaig/Documents/GitHub/project_bank/myenv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/mirzabaig/Documents/GitHub/project_bank/myenv/lib/python3.9/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view bankapp.views.trsn_deposit didn't return an HttpResponse object. It returned None instead.
+django.request WARNING 2023-02-09 11:30:06,489 Not Found: /deposit/
+django.utils.autoreload INFO 2023-02-09 17:33:02,141 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-02-09 17:33:26,084 Watching for file changes with StatReloader
+bankapp.views INFO 2023-02-09 17:34:22,676 new user created
+bankapp.views INFO 2023-02-09 17:34:57,523 user details displayed
+bankapp.views INFO 2023-02-09 17:35:23,346 deposit successful
+bankapp.views INFO 2023-02-09 17:35:56,637 withdraw successful
+bankapp.views INFO 2023-02-09 17:36:34,649 user updated successfully
+bankapp.views INFO 2023-02-09 17:36:57,055 user deleted successfully
+django.request WARNING 2023-02-09 17:37:52,002 Not Found: /accounts/login/

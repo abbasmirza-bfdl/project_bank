@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% if user.is_authenticated %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Home</title>
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topnav {
+          overflow: hidden;
+          background-color: #ec5555;
+        }
+        
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .topnav a.active {
+          background-color: #e1127d;
+          color: white;
+        }
+        fieldset {
+        background-color: #eeeeee;
+        display:inline-block;
+        }
+
+        legend {
+        background-color: gray;
+        color: white;
+        padding: 5px 10px;
+        }
+        </style>
+        
+</head>
+<body style="background-color: #f2a49c;">
+    
+    <div class="topnav">
+        <a class="active">Banky Bank</a>
+        <a href="/user_reg_form/">Register</a>
+        <a href="/userdetailsform/">Search</a>
+        <a href="{% url 'logout' %}">Log Out</a>
+      </div>
+      <br><br>
+    <div style='text-align:center'>
+    <fieldset style='text-align:left'>
+        <legend style='text-align:center'>Admin's Home Page</legend>
+        <table>
+            <tr>
+                <td>Register New User:</td>
+                <td>
+                    <form method="POST" action="/user_reg_form/">
+                    {% csrf_token %}
+                    <input type="submit" value="Register">
+                    </form> 
+                </td>
+            </tr>
+            <tr>
+                <td>Search Existing User:</td>
+                <td>
+                    <form method="POST" action="/userdetailsform/">
+                        {% csrf_token %}
+                        <input type="submit" value="Search">
+                    </form> 
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    </div>
+    <!-- <p><a href="{% url 'logout' %}">Log Out</a></p> -->
+    {% else %}
+  <p>You are not logged in</p>
+  <a href="{% url 'login' %}">Log In</a>
+{% endif %}
+</body>
+</html>

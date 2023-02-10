@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% if user.is_authenticated %}
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topnav {
+          overflow: hidden;
+          background-color: #ec5555;
+        }
+        
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .topnav a.active {
+          background-color: #e1127d;
+          color: white;
+        }
+        fieldset {
+        background-color: #eeeeee;
+        display:inline-block;
+        }
+
+        legend {
+        background-color: gray;
+        color: white;
+        padding: 5px 10px;
+        }
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 5px;
+          text-align: left;
+        }
+        </style>
+</head>
+<body style="background-color: #f2a49c;">
+    <div class="topnav">
+        <a class="active">Banky Bank</a>
+        <a href="/">Home</a>
+        <a href="/user_reg_form/">Register</a>
+        <a href="/userdetailsform/">Search</a>
+        <a href="{% url 'logout' %}">Log Out</a>
+      </div>
+      <br><br>
+    <div style='text-align:center'>
+    <fieldset style='text-align:center'>
+    <legend style='text-align:center'>User Details</legend>
+    {{msg_update}}
+    
+    <table>
+        <tr>
+            <th>First Name:</th>
+            <td>{{f_name}}</td>
+        </tr>
+        <tr>
+            <th>Last Name:</th>
+            <td>{{l_name}}</td>
+        </tr>
+        <tr>
+            <th>Residential Address:</th>
+            <td>{{res_addr}}</td>
+        </tr>
+        <tr>
+            <th>Office Address:</th>
+            <td>{{off_addr}}</td>
+        </tr>
+        <tr>
+            <th>Contact Number:</th>
+            <td>{{phone_no}}</td>
+        </tr>
+        <tr>
+            <th>User Id:</th>
+            <td>{{user_id}}</td>
+        </tr>
+        
+    </table>
+    </fieldset>
+</div>
+    <br>
+
+<div style='text-align:center'>
+    <fieldset style='text-align:center'>
+        <legend style='text-align:center'>User Account Details</legend>
+        <table>
+            <tr>
+                <th>Account Number:</th>
+                <td>{{acc_no}}</td>
+            </tr>
+            <tr>
+                <th>Account Type:</th>
+                <td>{{acc_name}}</td>
+            </tr>
+            <tr>
+                <th>Account Balance:</th>
+                <td>{{acc_bal}}</td>
+            </tr>
+        </table>
+    </fieldset>
+</div>
+    <br>
+    <div style='text-align:center'>
+    <fieldset style='text-align:center'>
+        <legend style='text-align:center'>Operations</legend>
+        {{msg_dep}}
+    {{msg_with}}
+        <form method="POST" action="/depositform/{{acc_no}}">
+            {% csrf_token %}
+            <input type="submit" value="Deposit Amount">
+        </form>
+        
+        <form method="POST" action="/withdform/{{acc_no}}">
+            {% csrf_token %}
+            <input type="submit" value="Withdraw Amount">
+        </form> 
+        
+        <form method="POST" action="/deleteuser/{{user_id}}">
+            {% csrf_token %}
+            <input type="submit" value="Delete User">
+        </form>   
+    
+        <form method="POST" action="/updateuserform/{{user_id}}">
+            {% csrf_token %}
+            <input type="submit" value="Update User">
+        </form> 
+
+        <!-- <form method="POST" action="/trsndetails/{{acc_no}}">
+            {% csrf_token %}
+            <input type="submit" value="View Transactions">
+        </form> -->
+
+    </fieldset>
+</div>
+    
+    {% else %}
+  <p>You are not logged in</p>
+  <a href="{% url 'login' %}">Log In</a>
+{% endif %}
+</body>
+</html>

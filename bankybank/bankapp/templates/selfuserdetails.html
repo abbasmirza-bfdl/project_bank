@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 5px;
+          text-align: left;
+        }
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topnav {
+          overflow: hidden;
+          background-color: #ec5555;
+        }
+        
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .topnav a.active {
+          background-color: #e1127d;
+          color: white;
+        }
+        fieldset {
+        background-color: #eeeeee;
+        display:inline-block;
+        }
+
+        legend {
+        background-color: gray;
+        color: white;
+        padding: 5px 10px;
+        }
+        </style>
+    <title>Document</title>
+</head>
+<body style="background-color: #f2a49c;">
+    <div class="topnav">
+        <a class="active">Banky Bank</a>
+        <a href="/selfhome/">Home</a>
+      </div>
+      <br><br>
+      <div style='text-align:center'>
+    <fieldset style='text-align:center'>
+        <legend style='text-align:center'>My Details</legend>
+    
+        <table style='text-align:center' >
+            <tr>
+                <th>First Name:</th>
+                <td>{{f_name}}</td>
+            </tr>
+            <tr>
+                <th>Last Name:</th>
+                <td>{{l_name}}</td>
+            </tr>
+            <tr>
+                <th>Residential Address:</th>
+                <td>{{res_addr}}</td>
+            </tr>
+            <tr>
+                <th>Office Address:</th>
+                <td>{{off_addr}}</td>
+            </tr>
+            <tr>
+                <th>Contact Number:</th>
+                <td>{{phone_no}}</td>
+            </tr>
+            <tr>
+                <th>User Id:</th>
+                <td>{{user_id}}</td>
+            </tr>
+        </table>
+    </fieldset></div>
+    <br>
+    <div style='text-align:center'>
+        <h3>Thank you for registering with us!</h3>
+        <p>We will get in touch with you shortly</p>
+        <p>Please note your User Id: '{{user_id}}' for further processing!</p>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% if user.is_authenticated %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>routing works</p>
+    {% for no in range(i) %}
+        <table>
+        {% for elem in no %}
+            <tr>
+                {% for entry in elem %}
+                    <td>
+                        entry
+                    </td>
+            </tr>
+        </table>
+    {% else %}
+  <p>You are not logged in</p>
+  <a href="{% url 'login' %}">Log In</a>
+{% endif %}
+</body>
+</html>
